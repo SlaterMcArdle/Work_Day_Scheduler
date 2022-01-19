@@ -63,7 +63,6 @@ populateCurrentDate();
 generateDay();
 // Fill the slots with any stored data
 loadStoredTasks();
-console.log(taskList);
 
 // Create an event listener to check for save button clicks
 $('#timeBlockContainer').on('click', '.bi', function(e) {
@@ -81,7 +80,6 @@ $('#timeBlockContainer').on('click', '.bi', function(e) {
     } else {
         existingIndex = -1;
     }
-    console.log(existingIndex);
     // If there's a valid index, reassign the object. If not, add the object to the array.
     if (existingIndex != -1) {
         taskList[existingIndex] = {'time': existingHour, 'content': newContent};
