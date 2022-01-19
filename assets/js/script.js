@@ -74,10 +74,10 @@ $('#timeBlockContainer').on('click', '.bi', function(e) {
     let existingIndex;
     // If there's data stored in local storage, check it to see if there's an existing object that matches the timeslot we're trying to save to.
     // If there is, get the index
-    // The following sets of if statemente could use some streamlining.
     if (taskList != null) {
         existingIndex = taskList.findIndex(x => x.time == existingHour);
     } else {
+        taskList = [];
         existingIndex = -1;
     }
     // If there's a valid index, reassign the object. If not, add the object to the array.
