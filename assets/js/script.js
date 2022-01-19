@@ -13,7 +13,7 @@ function populateCurrentDate() {
     $('#currentDay').text(currentDate);
 }
 function generateDay() {
-    const localHour = 12/* moment().hour(); */
+    const localHour = moment().hour();
     for (let i = 9; i < 18; i++) {
         let hour = moment().set('hour', i).set('minute', 0).format('LT')
         let taskColor;
