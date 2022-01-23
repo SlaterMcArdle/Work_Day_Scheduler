@@ -29,4 +29,4 @@ THEN the saved events persist
     - This was acheived using event listeners, jQuery and the localStorage API
 
 Find a screenshot below.
-![ScreenShot](./Assets/screenshot_01.png)
+![ScreenShot](./assets/Screenshot_01.png)
