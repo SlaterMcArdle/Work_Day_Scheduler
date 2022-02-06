@@ -1,10 +1,10 @@
-# homework-05
+#Work_Day_Scheduler
 3rd Party API Homework - Work Day Scheduler
 
 The goal of this homework was to use 3rd party APIs including Bootstrap, jQuery and moment.js to create a work day scheduler.
 
 The functioning site can be found here: 
-https://windwalker-92.github.io/homework-05/
+https://windwalker-92.github.io/Work_Day_Scheduler/
 
 
 The functional requirements were as follows:
